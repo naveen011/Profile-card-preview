@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+
+:root{
+  --darkcyan: hsl(185, 75%, 39%);
+  --vdblue: hsl(229, 23%, 23%);
+  --dgblue: hsl(227, 10%, 46%);
+  --gray: hsl(0, 0%, 59%);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 18px;
+  background-color:var(--darkcyan);
+align-items: center;
+padding: 1.25rem;
+border-radius: 1rem;
+margin-bottom: 2rem;
+}
+.container{
+  padding-top: 250px;
+}
+.container .top img{
+  position: absolute;
+  max-width: 750px;
+  padding-top: 300px;
+  padding-left: 250px;
+}
+.bottom img{
+  position: absolute;
+  max-width: 750px;
+  margin-top: 0;
+  padding-right: 25px;
+  margin-left: 25px;
+}
+ul{
+  list-style: none;
+}
+img{
+  position: relative;
+  align-items: center;
+}
+.whitebg{
+  position: relative;
+  background-color: white;
+  width: 350px;
+  height:500px;
+  border-radius: 10%;
+}
+.container .card img{
+max-width:1000px;
+  position: absolute;
+  border-radius: 7%;
+}
+.container .avatar{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding-top: 6.5rem;
+  padding-left: 7.5rem;
+  margin-bottom: 20px;
+}
+.container .avatar img{
+ border: 0.2rem solid white ;
+ border-radius: 50%;
+ width: 7rem;
+}
+.container .head{
+  margin: 1rem 0.5rem 0.5rem 0rem;
+  color: var(--white);
+  text-align: center;
+  justify-content: space-between;
+
+}
+.container .head span{
+  color: var(--gray);
+  padding-left: 0.5rem;
+}
+.container .head p{
+  color: hsl(0, 0%, 59%);
+  margin-top: 0.5rem;
+}
+.container .line{
+  border-bottom: 0.5px solid var(--gray);
+  margin: 2rem auto 1rem auto;
+}
+.container h3{
+  color: #100F0F;
+}
+.container .ff li{
+  color:var(--gray);
+}
+
+.container .ff {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2rem;
+  margin: auto 2rem;
+  color: #100F0F;
+}
+
+@media(min-width:250px) {
+
+.container{width: 350px;
+  margin: 1rem auto 2rem auto;}
+}
+
+
+
+.attribution { font-size: 18px; text-align: center; }
+.attribution a { color: white;
+  text-decoration: none;
+  font-style: 25px;
+ }
